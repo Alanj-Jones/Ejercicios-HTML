@@ -1,0 +1,90 @@
+body
+{
+	background-color: coral;
+}
+
+h1
+{
+	background-color: black;
+	font-family: Verdana, Arial;
+	font-size: 3;
+	color : red;
+}
+
+a:link /*normal/no visitado*/
+{
+	color: green;
+}
+
+a:visited /*visitado*/
+{
+	color: pink;
+}
+
+a:hover /*Encima/senialandolo*/
+{
+	color: blue;
+}
+
+a:active /*Dura lo que dura el click*/
+{
+	color: yellow;
+}
+
+a:hover, a:active
+{
+	background-color: snow;
+	color :steelblue;
+
+}
+
+p
+{
+	background-color: white;
+}
+
+.p0
+{
+	border: dotted aquamarine 10px;
+	width: 50%;
+	height: 300px;
+	/*padding : 40px;  tbrl
+	padding: 20px 40px 60px 80 px; Top right bottom left*/
+	padding: 20px 20px; /*Top bottom*/
+	margin: 60px;
+	color: blue;
+	text-align: center;
+	text-decoration: underline; /*Underline overline */
+	text-transform: capitalize; /*Uppercase y lowercase*/
+	text-shadow: 2px 3px gray;
+}
+
+.p1
+{
+	/*border : solid green 10px;*/
+	border-bottom: dotted red 13px;
+	border-top: dashed yellow 14px;
+	border-right: solid blue 15px;
+	border-left: groove green 16px;
+}
+
+#idP
+{
+	color:gray;
+}
+
+ol
+{
+	background-color: #009999;
+	padding: 24px;
+}
+
+ol li
+{
+	/*list-style-image: url("mk11.jpeg");
+	list-style-position: outside;*/
+	margin: 8px
+	padding: 6px;
+	background-color: #00B9B9;
+	color: dimgray;
+}

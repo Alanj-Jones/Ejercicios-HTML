@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Se sigue con css</title>
+	<link rel="stylesheet" type="text/css" href="estilos4.css">
+</head>
+<body>
+	<H1>Lenguaje java</H1>
+	<div>
+		<p class="p1">Es un lenguaje de programacion orientado a objetos, implementa el encapsulamiento, el polimorfismo y la herencia.</p>
+		<p class="p2">Fue lanzado al mercado en el ano 1996, por la empresa Sun Microsystems, actualmente propiedad de Oracle</p>
+	</div>
+	<h2>Caracteristicas</h2>
+	<ol>
+		<li>Simple y familiar</li>
+		<li>compilado e interpretado</li>
+		<li>Multiple plataforma</li>
+		<li>escala</li>
+		<li>Seguro y distribuido</li>
+	</ol>
+
+</body>
+</html>
